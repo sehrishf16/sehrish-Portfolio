@@ -1,0 +1,80 @@
+.hero {
+  min-height: 50vh;
+  display: flex;
+  align-items: center;
+}
+
+.hero-greeting {
+  color: #22c55e;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hero-title {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.hero-role {
+  color: #6366f1;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.hero-description {
+  color: #cbd5e1;
+  line-height: 1.8;
+  margin-bottom: 30px;
+  max-width: 600px;
+}
+
+.hero-buttons {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.hero-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.hero-icons a {
+  color: white;
+  transition: 0.3s;
+}
+
+.hero-icons a:hover {
+  color: #6366f1;
+  transform: translateY(-5px);
+}
+
+.hero-image-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-image {
+  width: 380px;
+  max-width: 100%;
+  border-radius: 50%;
+  
+}
+
+@media (max-width: 900px) {
+  .hero {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .hero-buttons,
+  .hero-icons {
+    justify-content: center;
+  }
+
+  .hero-image {
+    width: 300px;
+    margin-top: 40px;
+  }
+}
