@@ -73,7 +73,7 @@ export default function Navbar() {
               letterSpacing: 1,
             }}
           >
-            Sehrish.dev
+            Sehrish Fatema
           </Typography>
 
           {!mobile ? (
