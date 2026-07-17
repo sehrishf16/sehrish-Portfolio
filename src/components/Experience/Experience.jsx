@@ -158,10 +158,7 @@ const Experience = () => {
       component="section"
       id="experience"
       sx={{
-        py: {
-          xs: 8,
-          md: 10,
-        },
+        py: { xs: 8, md: 10 },
       }}
     >
       <Container maxWidth="lg">
@@ -185,42 +182,29 @@ const Experience = () => {
           align="center"
           color="text.secondary"
           sx={{
-            maxWidth: "700px",
+            maxWidth: 700,
             mx: "auto",
-            mb: {
-              xs: 5,
-              md: 8,
-            },
+            mb: { xs: 5, md: 8 },
           }}
         >
           My professional journey so far.
         </Typography>
 
-        <Grid
-          container
-          spacing={{
-            xs: 3,
-            md: 4,
-          }}
-        >
+        <Grid container spacing={4}>
           {experience.map((item) => (
             <Grid
-              item
-              xs={12}
               key={item.id}
-              sx={{
-                display: "flex",
-              }}
+              size={{ xs: 12, md: 6 }}
             >
               <Paper
                 elevation={4}
                 sx={{
-                  width: "100%",
-                  p: {
-                    xs: 2,
-                    md: 3,
-                  },
+                  height: "100%",
+                  display: "flex",
+                  flexDirection: "column",
+                  p: 3,
                   borderRadius: 3,
+                  overflow: "hidden",
                   transition: "0.3s",
 
                   "&:hover": {
@@ -243,7 +227,7 @@ const Experience = () => {
                       fontSize="large"
                     />
 
-                    <Box>
+                    <Box sx={{ minWidth: 0 }}>
                       <Typography variant="h5" fontWeight={700}>
                         {item.role}
                       </Typography>
@@ -266,9 +250,6 @@ const Experience = () => {
                     <Chip
                       label="Current"
                       color="success"
-                      sx={{
-                        fontWeight: 600,
-                      }}
                     />
                   )}
                 </Box>
@@ -276,8 +257,10 @@ const Experience = () => {
                 <Typography
                   color="text.secondary"
                   sx={{
-                    lineHeight: 2,
+                    lineHeight: 1.8,
                     mb: 3,
+                    flexGrow: 1,
+                    wordBreak: "break-word",
                   }}
                 >
                   {item.description}
@@ -288,11 +271,16 @@ const Experience = () => {
                   spacing={1}
                   useFlexGap
                   flexWrap="wrap"
+                  sx={{
+                    mt: "auto",
+                    rowGap: 1,
+                  }}
                 >
                   {item.technologies.map((tech) => (
                     <Chip
                       key={tech}
                       label={tech}
+                      size="small"
                       color="primary"
                       variant="outlined"
                     />
