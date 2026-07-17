@@ -17,8 +17,6 @@ const projects = [
       "React Navigation",
     ],
 
-    github: "https://github.com/sehrishf16",
-
     demo: "#",
 
     featured: true,
@@ -42,8 +40,6 @@ const projects = [
       "Yup",
     ],
 
-    github: "https://github.com/sehrishf16",
-
     demo: "#",
 
     featured: true,
@@ -66,26 +62,6 @@ const projects = [
       "Chart.js",
       "JavaScript",
     ],
-
-    github: "https://github.com/sehrishf16",
-
-    demo: "#",
-
-    featured: true,
-  },
-
-  {
-    id: 5,
-    title: "UI Components",
-
-    description:
-      "Contributed to the development of a reusable UI component library by building responsive, customizable, and accessible components for React applications. Developed components following design system standards to improve consistency, scalability, and developer productivity.",
-
-    image: "/projects/ui-library.png",
-
-    technologies: ["React", "Material UI", "TypeScript", "JavaScript"],
-
-    github: "https://github.com/sehrishf16",
 
     demo: "#",
 

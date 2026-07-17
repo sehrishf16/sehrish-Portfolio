@@ -72,7 +72,10 @@ const Contact = () => {
   };
 
   return (
-    <section id="contact">
+    <section id="contact"
+    sx={{
+        py: { xs: 8, md: 12 },
+      }}>
       <Container maxWidth="lg">
         <Typography
           variant="h3"
@@ -101,7 +104,7 @@ const Contact = () => {
               sx={{
                 p: 4,
                 borderRadius: 3,
-                height: "100%",
+                
               }}
             >
               <Typography
@@ -113,24 +116,26 @@ const Contact = () => {
               </Typography>
 
               <Box display="flex" gap={2} mb={3}>
-                <EmailIcon color="primary" />
                 <Typography>
+                  <EmailIcon color="primary" />
                   sehrishfatema10@gmail.com
                 </Typography>
               </Box>
 
               <Box display="flex" gap={2} mb={3}>
-                <PhoneIcon color="primary" />
+                
                 <Typography>
+                  <PhoneIcon color="primary" />
                   +91 9860810889
                 </Typography>
               </Box>
 
               <Box display="flex" gap={2}>
-                <LocationOnIcon color="primary" />
+                
                 <Typography>
+                  <LocationOnIcon color="primary" />
                   Chhatrapati Sambhajinagar,
-                  Maharashtra
+                           Maharashtra
                 </Typography>
               </Box>
             </Paper>

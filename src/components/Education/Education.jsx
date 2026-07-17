@@ -12,7 +12,10 @@ import education from "../../data/education";
 
 const Education = () => {
   return (
-    <section id="education">
+    <section id="education"
+    sx={{
+        py: { xs: 8, md: 12 },
+      }}>
       <Container maxWidth="lg">
     
 

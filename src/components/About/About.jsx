@@ -62,7 +62,7 @@ const About = () => {
               fontWeight={700}
               gutterBottom
             >
-              React Developer & React Native Developer
+              Software Developer 
             </Typography>
 
             <Typography
@@ -72,7 +72,7 @@ const About = () => {
                 fontSize: "1.05rem",
               }}
             >
-              I'm <strong>Sehrish Fatema</strong>, a passionate Frontend
+              I'm <strong>Sehrish Fatema</strong>, a passionate Software
               Developer focused on building clean, responsive and
               user-friendly web and mobile applications.
 

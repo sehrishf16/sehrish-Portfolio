@@ -23,7 +23,7 @@ import { TbApi } from "react-icons/tb";
 
 const skills = [
   {
-    category: "Frontend",
+  
     items: [
       { name: "React", icon: FaReact },
       { name: "React Native", icon: FaReact },
@@ -37,7 +37,7 @@ const skills = [
   },
 
   {
-    category: "Backend",
+    
     items: [
       { name: "Django", icon: SiDjango },
       { name: "REST APIs", icon: TbApi },
@@ -46,7 +46,7 @@ const skills = [
   },
 
   {
-    category: "Tools",
+    
     items: [
       { name: "Git", icon: FaGitAlt },
       { name: "GitHub", icon: FaGithub },

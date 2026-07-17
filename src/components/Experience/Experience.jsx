@@ -14,7 +14,10 @@ import experience from "../../data/experience";
 
 const Experience = () => {
   return (
-    <section id="experience">
+    <section id="experience"
+    sx={{
+        py: { xs: 8, md: 12 },
+      }}>
       <Container maxWidth="lg">
 
         <Typography
@@ -31,6 +34,7 @@ const Experience = () => {
           align="center"
           color="text.secondary"
           mb={7}
+          
         >
           My professional journey so far.
         </Typography>
@@ -40,6 +44,7 @@ const Experience = () => {
             key={item.id}
             elevation={4}
             sx={{
+              mt:3,
               p: { xs: 2, md: 3 },
               mb: 4,
               borderRadius: 2,

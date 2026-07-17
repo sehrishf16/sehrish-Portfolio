@@ -42,7 +42,7 @@ const Footer = () => {
             fontWeight={700}
             color="primary"
           >
-            Sehrish.dev
+            Sehrish fatema
           </Typography>
 
           

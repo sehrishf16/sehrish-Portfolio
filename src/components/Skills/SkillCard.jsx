@@ -8,7 +8,7 @@ const SkillCard = ({ skill }) => {
     <Card
       sx={{
         width: 120,
-        height: 150,
+        height: 130,
         borderRadius: "20px",
         cursor: "pointer",
         display: "flex",

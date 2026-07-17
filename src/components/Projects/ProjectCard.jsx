@@ -96,14 +96,7 @@ const ProjectCard = ({ project }) => {
             pt: 2,
           }}
         >
-          <Button
-            variant="contained"
-            startIcon={<GitHubIcon />}
-            href={project.github}
-            target="_blank"
-          >
-            GitHub
-          </Button>
+          
         </Stack>
       </CardContent>
     </Card>

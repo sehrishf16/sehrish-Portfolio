@@ -15,7 +15,10 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="hero">
+    <section id="home" className="hero"
+    sx={{
+        py: { xs: 8, md: 12 },
+      }}>
       <Container maxWidth="lg">
         <Box
           sx={{
@@ -47,7 +50,7 @@ const Hero = () => {
             </Typography>
 
             <Typography variant="h5" className="hero-role">
-              Frontend Developer
+              Software Developer
             </Typography>
 
             <Typography className="hero-description">
