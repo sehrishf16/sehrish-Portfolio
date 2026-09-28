@@ -81,8 +81,8 @@ const Hero = () => {
                 size="large"
                 startIcon={<DownloadIcon />}
                 component="a"
-                href="/Sehrishf%20CV%20-%201.pdf"
-                download="Sehrishf CV - 1.pdf"
+                 href="/Sehrish_Fatema_Resume.pdf"
+  download="Sehrish_Fatema_Resume.pdf"
               >
                 Download Resume
               </Button>
