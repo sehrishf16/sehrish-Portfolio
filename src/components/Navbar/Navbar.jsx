@@ -122,7 +122,7 @@ export default function Navbar() {
                 variant="contained"
                 color="primary"
                 component="a"
-                href="/Sehrishf CV.pdf"
+                href="/Sehrishf CV-1.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 sx={{

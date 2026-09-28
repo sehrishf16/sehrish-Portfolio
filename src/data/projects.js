@@ -44,23 +44,23 @@ const projects = [
 
     featured: true,
   },
+
   {
     id: 3,
-    title: "AI Expense Tracker",
+    title: "ProjectHub",
 
     description:
-      "A smart expense management application that helps users track income and expenses while providing AI-powered financial assistance through an integrated chatbot using the OpenRouter API. Users can manage transactions, view spending insights, and receive personalized budgeting suggestions.",
+      "A project management web application designed to organize and manage projects through a responsive and user-friendly interface. Built reusable React components and implemented a scalable frontend structure for efficient project management.",
 
-    image: "/projects/expense-tracker.png",
+    image: "/projects/projecthub.png",
 
     technologies: [
-      "React",
-      "Material UI",
-      "Redux Toolkit",
-      "OpenRouter API",
-      "REST API",
-      "Chart.js",
+      "React.js",
       "JavaScript",
+      "HTML5",
+      "CSS3",
+      "AWS EC2",
+      "Nginx",
     ],
 
     demo: "#",
