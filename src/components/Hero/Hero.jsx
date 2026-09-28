@@ -79,7 +79,7 @@ const Hero = () => {
                 size="large"
                 startIcon={<DownloadIcon />}
                 component="a"
-                href="/Sehrishf%20CV-1.pdf"
+                href="/Sehrishf%20CV%20-1.pdf"
                 download="Sehrish_Fatema_Resume.pdf"
               >
                 Download Resume
