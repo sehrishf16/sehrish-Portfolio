@@ -15,10 +15,13 @@ const Hero = () => {
   };
 
   return (
-    <section id="home" className="hero"
-    sx={{
+    <section
+      id="home"
+      className="hero"
+      sx={{
         py: { xs: 8, md: 12 },
-      }}>
+      }}
+    >
       <Container maxWidth="lg">
         <Box
           sx={{
@@ -33,7 +36,6 @@ const Hero = () => {
             },
           }}
         >
-          
           <Box
             sx={{
               flex: 1,
@@ -79,8 +81,8 @@ const Hero = () => {
                 size="large"
                 startIcon={<DownloadIcon />}
                 component="a"
-                href="/Sehrishf%20CV%20-1.pdf"
-                download="Sehrish_Fatema_Resume.pdf"
+                href="/Sehrishf%20CV%20-%201.pdf"
+                download="Sehrishf CV - 1.pdf"
               >
                 Download Resume
               </Button>
@@ -123,7 +125,6 @@ const Hero = () => {
             </Stack>
           </Box>
 
-         
           <Box
             sx={{
               flex: 1,
